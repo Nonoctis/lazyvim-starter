@@ -5,4 +5,5 @@ return {
   { "folke/flash.nvim", enabled = false },
   { "hashivim/vim-terraform", name = "terraform-syntax" },
   { "towolf/vim-helm" },
+  { "neovim/nvim-lspconfig", opts = { autoformat = false } },
 }
