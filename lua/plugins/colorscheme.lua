@@ -2,7 +2,7 @@ return {
   -- Add catppuccin
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   { "folke/tokyonight.nvim", lazy = false },
-  { "rose-pine/neovim", lazy = false },
+  { "rose-pine/neovim", name = "rose-pine", lazy = false },
   { "craftzdog/solarized-osaka.nvim", lazy = false },
   { "neanias/everforest-nvim", lazy = false },
   { "rebelot/kanagawa.nvim", lazy = false },
