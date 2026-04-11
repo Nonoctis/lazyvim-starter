@@ -5,6 +5,7 @@
 vim.wo.relativenumber = false -- Deactivate relative column number
 vim.wo.wrap = true -- Activate text wrapping
 
+vim.g.snacks_animate = false
 vim.fn.matchadd("errorMsg", [[\s\+$]]) -- Show trailing whitespaces as errors
 
 -- if vim.fn.has("wsl") == 1 then
